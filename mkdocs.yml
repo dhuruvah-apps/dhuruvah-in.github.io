@@ -1,5 +1,9 @@
-site_name: Material for MkDocs Portfolio Template
-repo_name: MrChike/mkdocs-portfolio
+site_name: Dhuruvah's Portfolio and Blog
+repo_name: dhuruvah-apps/dhuruvah-in.github.io
+site_name: ND Astro Engine Documentation
+site_url: https://dhuruvah-in.github.io/
+site_description: Python library for Vedic astrology (Jyotish) calculations - ayanamsa systems, planet positions, nakshatras, rashis, transits, dashas, retrograde periods, sunrise/sunset times & panchang. Open-source astronomical computation engine.
+site_author: Dhuruvah Apps
 
 nav:
   - Home: index.md
