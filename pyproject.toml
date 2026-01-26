@@ -1,0 +1,84 @@
+[project]
+name = "dhuruvah-apps"
+version = "0.1.0"
+description = ""
+authors = [
+    {name = "Jaganathan, B", email = "jaganathan.eswaran@gmail.com"}
+]
+maintainers = [
+    {name = "Jaganathan, B", email = "jaganathan.eswaran@gmail.com"}
+]
+readme = "README.md"
+license = {text = "MIT"}
+requires-python = ">=3.10,<4.0"
+keywords = ["dhuruvah apps", "products", "portfolio"]
+
+[project.urls]
+Homepage = "https://dhuruvah-in.github.io"
+Repository = "https://github.com/dhuruvah-apps/dhuruvah-in.github.io"
+Documentation = "https://dhuruvah.in/"
+"Bug Tracker" = "https://github.com/dhuruvah-apps/dhuruvah-in.github.io/issues"
+Changelog = "https://github.com/dhuruvah-apps/dhuruvah-in.github.io/releases"
+
+[project.optional-dependencies]
+dev = [
+    "ruff>=0.14.10",
+    "mypy>=1.19.1",
+]
+docs = [
+    "mkdocs>=1.5.0",
+    "mkdocs-material>=9.7.1",
+    "mkdocstrings[python]>=1.0.0",
+    "pymdown-extensions>=10.20",
+]
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
+
+[tool.mypy]
+warn_return_any = true
+warn_unused_configs = true
+namespace_packages = true
+explicit_package_bases = true
+
+[tool.ruff]
+line-length = 150
+target-version = "py310"
+
+[tool.ruff.lint]
+select = ["ALL"]
+ignore=["INP001", "COM812", "D213", "D203"]
+
+[tool.ruff.lint.per-file-ignores]
+"**/{tests}/*" = ["S101", "D103", "D100", "ANN201"]
+
+[tool.ruff.format]
+docstring-code-format = true
+docstring-code-line-length = 72
+
+[tool.isort]
+multi_line_output = 3
+include_trailing_comma = true
+force_grid_wrap = 0
+
+
+[tool.poetry.group.dev.dependencies]
+mkdocs-material = "^9.7.1"
+mkdocstrings = {extras = ["python"], version = "^1.0.0"}
+pymdown-extensions = "^10.20"
+commitizen = "4.11.0"
+pre-commit = "^4.5.1"
+
+
+[tool.commitizen]
+name = "cz_conventional_commits"
+version = "0.8.1"
+tag_format = "v$version"
+version_scheme = "semver2"
+version_provider = "pep621"
+version_files = [
+    "pyproject.toml:version",
+]
+update_changelog_on_bump = true
+major_version_zero = true
