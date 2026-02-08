@@ -1,17 +1,40 @@
-# Welcome to MkDocs
+---
+hide:
+  - toc
+  - navigation
+---
 
-For full documentation visit [mkdocs.org](https://www.mkdocs.org).
+# Home
 
-## Commands
+<style>
+.md-content .md-typeset h1 { display: none; }
+article.md-content__inner { text-align: center; }
+.md-tabs { display: none; }
 
-* `mkdocs new [dir-name]` - Create a new project.
-* `mkdocs serve` - Start the live-reloading docs server.
-* `mkdocs build` - Build the documentation site.
-* `mkdocs -h` - Print help message and exit.
+</style>
 
-## Project layout
+<img style="border-radius: 100%; max-height: 15rem;" src="assets/images/me.png">
 
-    mkdocs.yml    # The configuration file.
-    docs/
-        index.md  # The documentation homepage.
-        ...       # Other markdown pages, images and other files.
+<div style="font-size: 2em;" markdown="1">
+
+Hey! I'm **<a href="https://twitter.com/jaganbathri" target="_blank">@jaganbathri</a> (Jaganthan Bantheswaran)**. 👋
+
+</div>
+
+<div style="font-size: 1.5em" markdown="1">
+
+You are probably looking for my **<a href="https://dhuruvah.in/projects/">open source projects</a>**.
+
+</div>
+
+I'm a software developer from India.
+
+I currently live in Salem, Tamilnadu, India.
+
+I created **<a href="https://ndastro-engine.dhuruvah.in" target="_blank">NDAstro Engine</a>** 🚀
+
+I have been building UI, APIs and tools for Web app and data systems, in India, with different teams and organizations. 🌎
+
+I'm now working full time for Itron, Inc. 🤓
+
+Credits: @tiangolo
