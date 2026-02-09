@@ -51,7 +51,7 @@ theme:
 
   icon:
     repo: fontawesome/brands/github-alt
-  logo: assets/images/DhuruvahApps.png
+  logo: /assets/images/logo.svg
   favicon: img/icon.ico
   language: en
 plugins:
@@ -113,6 +113,7 @@ markdown_extensions:
   mdx_include:
 
 extra:
+  
   social:
   - icon: fontawesome/brands/github-alt
     link: https://github.com/dhuruvah-apps

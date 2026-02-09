@@ -6,10 +6,25 @@ hide:
 
 # Home
 
-<style>
+<style lang="css">
 .md-content .md-typeset h1 { display: none; }
 article.md-content__inner { text-align: center; }
-.md-tabs { display: none; }
+ 
+.md-header__button.md-logo, .md-tabs, .md-header__title, .md-search, .md-header__source   { display: none; }
+
+.md-header--shadow {
+ box-shadow: unset;
+}
+
+.md-header {
+  background-color: unset;
+  color: unset;
+}
+
+.md-header__inner {
+  flex-direction: column;
+  align-items: flex-end;
+}
 
 </style>
 
@@ -23,7 +38,7 @@ Hey! I'm **<a href="https://twitter.com/jaganbathri" target="_blank">@jaganbathr
 
 <div style="font-size: 1.5em" markdown="1">
 
-You are probably looking for my **<a href="https://dhuruvah.in/projects/">open source projects</a>**.
+You are probably looking for my **<a href="projects/">open source projects</a>**.
 
 </div>
 
