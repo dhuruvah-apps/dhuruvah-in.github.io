@@ -149,7 +149,7 @@ The API follows a clean architecture pattern with clear separation of concerns:
 ### Links
 
 - **GitHub Repository**: [dhuruvah-apps/ndastro-api](https://github.com/dhuruvah-apps/ndastro-api)
-- **API Documentation**: Available at `/api/v1/docs` when running
+- **API Documentation**: Available at [OnRender](https://ndastro-api.onrender.com/docs#/)
 
 ---
 
